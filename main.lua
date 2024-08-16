@@ -3,7 +3,7 @@ function love.load()
     package.path = package.path .. ";/home/jade/Code/love2d-helper/?.lua"
     helper = require "helper"
     settings = require "conf"
-    love.graphics.setBackgroundColor(helper.colors.phthalo_green)
+    love.graphics.setBackgroundColor(helper:get_color('phthalo_green'))
 end
 
 function love.keypressed(key)
