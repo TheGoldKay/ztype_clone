@@ -8,6 +8,7 @@ function love.conf(t)
     t.window.width = settings.win_width
     t.window.height = settings.win_height
     t.version = "11.5"
+    t.console = true 
 end
 
 return settings 
